@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.useTabStops": false,
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.detectIndentation": false,
+  "files.eol": "\n"
+}
