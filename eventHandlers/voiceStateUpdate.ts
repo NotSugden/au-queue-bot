@@ -61,6 +61,6 @@ export default async (oldState: VoiceState, newState: VoiceState) => {
         ...manager.queue.map((user, idx) => `\`${idx+1}.\` ${user} (${user.username})`)
       ].join('\n'))
     ],
-    components: Util.buildPingRow(manager.shouldDisablePing)
+    components: Util.buildPingRow(manager.shouldDisablePing || manager.queue.length === 0)
   });
 };
